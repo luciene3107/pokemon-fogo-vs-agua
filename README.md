@@ -4,7 +4,7 @@ Projeto da pós-graduação em IA. Dada a imagem de um Pokémon, os modelos dize
 e devolvem a **probabilidade** da classe prevista (ex.: `Fogo, 0,81`).
 
 - **Notebook (Google Colab):** treina e avalia os modelos, e exporta os arquivos do app.
-- **App (Streamlit):** envia uma imagem e mostra a previsão de cada modelo.
+- **App (Streamlit):** envia uma imagem e mostra a previsão de cada modelo. **Acesse online: https://pokemon-fogo-vs-agua-drpdscdv8yraa6xrxxhudv.streamlit.app/**
 
 > Projeto educacional, sem fins de diagnóstico ou de uso real. Pokémon é marca de seus respectivos donos; as imagens
 > pertencem a seus detentores e não estão incluídas neste repositório.
