@@ -31,7 +31,7 @@ e devolvem a **probabilidade** da classe prevista (ex.: `Fogo, 0,81`).
 | `app.py` | App Streamlit |
 | `requirements.txt` | Dependências do app |
 | `features.py` | Extração de features. **É gerado pelo notebook** (dentro do `arquivos_app.zip`) |
-| `arquivos_app.zip` | Gerado pelo notebook: modelos `.joblib` (2 e 3 classes), `config.json`, tabelas `.csv` e `features.py` |
+| `arquivos_app.zip` | Gerado pelo notebook: modelos `.joblib` (2 e 3 classes), `config.json`, `pokedex.json` (nome do Pokémon pelo número do arquivo), tabelas `.csv` e `features.py` |
 
 O `features.py` é compartilhado entre o notebook e o app de propósito: o app usa **exatamente o mesmo código** de
 features do treino, então as duas partes nunca ficam diferentes.
@@ -305,4 +305,6 @@ Nas imagens originais, a % prevista como Fogo fica em 45% a 50% com o limiar do 
 
 ## Autoria
 
-Luciene, pós-graduação em IA.
+Luciene Borges, pós-graduação em Inteligência Artificial, Unicarioca.
+Disciplina: Lógica Nebulosa
+Data de entrega: 24/10/2026
