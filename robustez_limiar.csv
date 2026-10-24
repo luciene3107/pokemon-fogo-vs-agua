@@ -1,0 +1,17 @@
+Modelo,Cenário,Limiar,Acurácia,Precisão,Recall,F2,% previsto Fogo
+SVM,Original (limiar F2),0.26,0.839,0.682,0.952,0.882,45.596
+SVM,Variantes (limiar F2),0.26,0.746,0.579,0.815,0.753,45.941
+SVM,"Variantes (limiar 0,50)",0.5,0.793,0.678,0.696,0.692,33.506
+SVM,Variantes (limiar oráculo),0.35,0.775,0.624,0.78,0.743,40.846
+Random Forest,Original (limiar F2),0.34,0.829,0.667,0.952,0.877,46.632
+Random Forest,Variantes (limiar F2),0.34,0.618,0.458,0.921,0.766,65.63
+Random Forest,"Variantes (limiar 0,50)",0.5,0.751,0.586,0.815,0.756,45.423
+Random Forest,Variantes (limiar oráculo),0.6,0.8,0.685,0.714,0.708,34.024
+KNN,Original (limiar F2),0.29,0.803,0.637,0.921,0.845,47.15
+KNN,Variantes (limiar F2),0.29,0.648,0.479,0.884,0.756,60.276
+KNN,"Variantes (limiar 0,50)",0.5,0.756,0.594,0.796,0.745,43.782
+KNN,Variantes (limiar oráculo),0.5,0.756,0.594,0.796,0.745,43.782
+Gradient Boosting,Original (limiar F2),0.08,0.782,0.608,0.937,0.845,50.259
+Gradient Boosting,Variantes (limiar F2),0.08,0.472,0.382,0.997,0.754,85.233
+Gradient Boosting,"Variantes (limiar 0,50)",0.5,0.702,0.529,0.804,0.728,49.655
+Gradient Boosting,Variantes (limiar oráculo),0.73,0.762,0.62,0.696,0.679,36.615

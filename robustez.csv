@@ -1,0 +1,17 @@
+Modelo,Teste,n,Acurácia,Precisão,Recall,F1,F2,ROC AUC
+SVM,Original (mesmas espécies),193,0.839,0.682,0.952,0.795,0.882,0.901
+SVM,Variantes (todas),1158,0.746,0.579,0.815,0.677,0.753,0.826
+SVM,Variantes coloridas,1121,0.751,0.583,0.81,0.678,0.752,0.829
+SVM,Variantes em cinza,37,0.595,0.5,0.933,0.651,0.795,0.718
+Random Forest,Original (mesmas espécies),193,0.829,0.667,0.952,0.784,0.877,0.913
+Random Forest,Variantes (todas),1158,0.618,0.458,0.921,0.612,0.766,0.846
+Random Forest,Variantes coloridas,1121,0.623,0.459,0.92,0.612,0.766,0.851
+Random Forest,Variantes em cinza,37,0.486,0.438,0.933,0.596,0.761,0.633
+KNN,Original (mesmas espécies),193,0.803,0.637,0.921,0.753,0.845,0.889
+KNN,Variantes (todas),1158,0.648,0.479,0.884,0.621,0.756,0.825
+KNN,Variantes coloridas,1121,0.652,0.48,0.882,0.621,0.755,0.83
+KNN,Variantes em cinza,37,0.514,0.452,0.933,0.609,0.769,0.597
+Gradient Boosting,Original (mesmas espécies),193,0.782,0.608,0.937,0.738,0.845,0.9
+Gradient Boosting,Variantes (todas),1158,0.472,0.382,0.997,0.552,0.754,0.817
+Gradient Boosting,Variantes coloridas,1121,0.473,0.38,0.997,0.551,0.753,0.823
+Gradient Boosting,Variantes em cinza,37,0.459,0.429,1.0,0.6,0.789,0.686

@@ -1,0 +1,5 @@
+Modelo,Acurácia,Acurácia balanceada,F1 macro,Recall Água,Recall Fogo,Recall Outro,Precisão Água,Precisão Fogo,Precisão Outro
+SVM,0.778,0.48,0.52,0.238,0.254,0.946,0.574,0.593,0.801
+Random Forest,0.736,0.672,0.613,0.608,0.635,0.774,0.485,0.381,0.881
+KNN,0.8,0.516,0.559,0.377,0.222,0.948,0.662,0.538,0.823
+Gradient Boosting,0.771,0.584,0.595,0.469,0.413,0.872,0.545,0.433,0.843
